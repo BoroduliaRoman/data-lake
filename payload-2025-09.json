@@ -1,0 +1,13 @@
+{
+  "sparkSubmit": {
+    "entryPoint": "s3://romeo-data-engineering-bootcamp/apps/reviews-per-listing.py",
+    "entryPointArguments": [
+      "--listings",
+      "s3://romeo-data-engineering-bootcamp/listings/date=2025-09/listings.csv.gz",
+      "--reviews",
+      "s3://romeo-data-engineering-bootcamp/reviews/date=2025-09/reviews.csv.gz",
+      "--output",
+      "s3://romeo-data-engineering-bootcamp/reviews_per_listing/date=2025-09/"
+    ]
+  }
+}
